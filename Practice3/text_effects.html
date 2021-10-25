@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+p.paragraf1 {
+  white-space: normal;
+  width: 300px; 
+  border: 1px solid gray;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+p.paragraf2 {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+</style>
+</head>
+<body>
+<h2> clip:</h2>
+<p class="paragraf1">This is some long text that will not fit in the box</p>
+
+<h2> ellipsis:</h2>
+<p class="paragraf2">This is some long text that will not fit in the box</p>
+
+</body>
+</html>
