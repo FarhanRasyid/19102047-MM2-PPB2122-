@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>koleksi</title>
+</head>
+<body>
+
+<p> kalimat ini bisa barubah warna</p>
+
+<p>sama ajah </p>
+
+<p> klik dulu</p>
+
+<button onclick="myFunction()">klik</button>
+
+<script>
+function myFunction() {
+  const myCollection =  document.querySelectorAll("p");
+  for (let i = 0; i < myCollection.length; i++) {
+    myCollection[i].style.color = "blue";
+  }
+}
+</script>
+</body>
+</html>
